@@ -354,7 +354,7 @@
         <repository>
             <id>sonatype-nexus</id>
             <name>Sonatype Nexus</name>
-            <url>http://repository.sonatype.org/content/groups/public/</url>
+            <url>https://repository.sonatype.org/content/groups/public/</url>
             <releases>
                 <enabled>true</enabled>
             </releases>
@@ -365,7 +365,7 @@
         <!-- Required for CI to fetch the latest snapshot releases of gwtbootstrap3 -->
         <repository>
             <id>sonatype-nexus-snapshots</id>
-            <url>http://oss.sonatype.org/content/repositories/snapshots</url>
+            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
             <snapshots>
                 <enabled>true</enabled>
             </snapshots>
@@ -378,7 +378,7 @@
     <pluginRepositories>
         <pluginRepository>
             <id>sonatype-nexus-plugins</id>
-            <url>http://repository.sonatype.org/content/groups/public/</url>
+            <url>https://repository.sonatype.org/content/groups/public/</url>
             <name>Sonatype Nexus Plugins</name>
             <releases>
                 <enabled>true</enabled>
